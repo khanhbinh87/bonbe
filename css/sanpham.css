@@ -1,0 +1,77 @@
+.product li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+.product li a:hover{
+    color: orangered;
+}
+.product {
+    border-left:5px solid #3C5D50;
+
+    border-right:1px solid rgba(128, 128, 128, 0.2);
+    border-bottom:1px solid rgba(128, 128, 128, 0.2);
+}
+.product h4{
+    padding: 10px 5px;
+    background-color: #3C5D50;
+    color: white;
+}
+.list-product{
+    position: relative;
+    text-align: center;
+}
+.list-product h3 {
+    color: white;
+    padding: 7px 5px;
+    background-color: #3C5D50;
+    display: inline-block;
+}
+.list-product h3:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: rgba(128, 128, 128, 0.699);
+    top:50%;
+    left: 0;
+    z-index: -1;
+    transform: translate(0,-50%);
+
+}
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;
+}
+.card-img-top{
+   height: 200px;
+   object-fit: cover;
+}
+.tele{
+    background-image: linear-gradient(to bottom right, red, yellow);
+    padding: 10px;
+    border-radius: 5px;
+    width: 70%;
+}
+.tele i{
+    font-size: 30px;
+    color: white;
+}
+.tele span{
+    color: white;
+    /* font-size: 12px; */
+    text-align: right;
+}
+.tele  strong {
+   
+    font-size: 20px;
+    padding-left: 10px;
+}
+.tele a{
+    text-decoration: none;
+}
+.detail{
+    text-decoration: none;
+    color: blue;
+}

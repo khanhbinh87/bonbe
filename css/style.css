@@ -311,7 +311,9 @@ a.more {
     padding-bottom: 50px;
     cursor: pointer;
 }
-
+.red{
+    color: rgb(177, 27, 27);
+}
 .product-section .product-item .product-thumbnail {
     margin-bottom: 30px;
     position: relative;
@@ -319,8 +321,10 @@ a.more {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
+    width: 300px;
+    border-radius: 5px;
 }
 
 .product-section .product-item h3 {
@@ -622,8 +626,11 @@ a.more {
 }
 
 .testimonial-slider-wrap .item .testimonial-block .author-info .author-pic img {
-    max-width: 80px;
+    /* max-width: 80px; */
     border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .testimonial-slider-wrap .item .testimonial-block .author-info h3 {
