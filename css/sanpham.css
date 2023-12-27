@@ -45,7 +45,7 @@
   display: table;
 }
 .card-img-top{
-   height: 200px;
+   height: 250px;
    object-fit: cover;
 }
 .tele{
@@ -74,4 +74,8 @@
 .detail{
     text-decoration: none;
     color: blue;
+}
+.silo img{
+    height: 350px;
+    object-fit: cover;
 }
