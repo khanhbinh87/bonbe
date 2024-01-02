@@ -21,13 +21,13 @@
     position: relative;
     text-align: center;
 }
-.list-product h3 {
+.list-product h1 {
     color: white;
     padding: 7px 5px;
     background-color: #3C5D50;
     display: inline-block;
 }
-.list-product h3:after{
+.list-product h1:after{
     content: "";
     position: absolute;
     width: 100%;
@@ -44,9 +44,33 @@
   clear: both;
   display: table;
 }
+
+.card-img{
+    height: 300px;
+    
+    overflow: hidden!important;
+}
+.card-img-top-2{
+    object-fit: cover;
+    height: 300px;
+
+    width: 100%;
+
+    
+}
 .card-img-top{
-   height: 250px;
-   object-fit: cover;
+    object-fit: cover;
+    height: 300px;
+
+    width: 100%;
+
+    
+}
+
+.card-img-top-2:hover {
+    transform: scale(1.5);
+    transition: transform .2s; /* Animation */
+
 }
 .tele{
     background-image: linear-gradient(to bottom right, red, yellow);
@@ -78,4 +102,20 @@
 .silo img{
     height: 350px;
     object-fit: cover;
+}
+.service{
+    align-items: baseline!important;
+}
+.gt,.intro{
+    font-size: 20px;
+    line-height: 30px;
+}
+.red{
+    color: red;
+}
+.blue{
+    color:blue
+}
+.img-desc{
+    height: 600px;
 }

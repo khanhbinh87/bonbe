@@ -629,9 +629,9 @@ a.more {
 
 .testimonial-slider-wrap .item .testimonial-block .author-info .author-pic img {
     /* max-width: 80px; */
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    border-radius: 20px;
+    /* width: 500px; */
+    height: 300px;
     object-fit: cover;
 }
 
