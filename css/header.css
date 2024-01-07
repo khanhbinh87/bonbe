@@ -98,3 +98,28 @@ footer {
     animation: textclip 2s linear infinite;
     display: inline-block;
 }
+
+.img-center{
+    display: flex;
+    justify-content: center;
+}
+.img-carousel {
+    height: 600px;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 700px!important;
+    
+
+
+}
+.carousel-item  *{
+    color: whitesmoke;
+
+}
+.carousel-item h3{
+    font-size: 40px;
+}
+.carousel-dark .carousel-indicators [data-bs-target]{
+    background-color: #00ff2d;
+    height: 5px;
+}
