@@ -105,14 +105,14 @@ footer {
 }
 .img-carousel {
     height: 600px;
-    border-radius: 50%;
+    border-radius: 80%;
     object-fit: cover;
     width: 700px!important;
 
 
 }
 .carousel-item  *{
-    color: whitesmoke;
+    color: #ffc107;
 
 }
 .carousel-item h3{
